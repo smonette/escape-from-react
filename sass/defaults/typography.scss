@@ -1,0 +1,21 @@
+body {
+  font-size: $type-small;
+}
+h1 {
+  font-size: $type-xlarge;
+  font-weight: bold;
+
+  margin-top: 20px;
+}
+h2 {
+  font-size: $type-large;
+  font-weight: bold;
+
+  margin-top: 15px;
+}
+h3 {
+  font-size: $type-medium;
+  font-weight: bold;
+
+  margin-top: 10px;
+}

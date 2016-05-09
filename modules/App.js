@@ -8,11 +8,11 @@ export default React.createClass({
     return( 
       <div>
         <h1>Welcome to Tahoe de Janeiro</h1>
-        <ul role="nav">
-          <li><NavLink to="/">Home</NavLink></li>
-          <li><NavLink to="/about">About</NavLink></li>
-          <li><NavLink to="/events">Events</NavLink></li>
-          <li><NavLink to="/packlist">Packlist</NavLink></li>
+        <ul role="nav" className="nav">
+          <li  className="nav-item"><NavLink to="/">Home</NavLink></li>
+          <li className="nav-item"><NavLink to="/about">About</NavLink></li>
+          <li className="nav-item"><NavLink to="/events">Events</NavLink></li>
+          <li className="nav-item"><NavLink to="/packlist">Packlist</NavLink></li>
         </ul>
 
         {this.props.children || <Home/>}

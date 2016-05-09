@@ -1,7 +1,8 @@
 // Default Styles
-@import "defaults/variables";
 @import "defaults/reset";
+@import "defaults/variables";
 
-body {
-  text-align: center;
-}
+@import "defaults/typography";
+@import "defaults/layout";
+
+@import "objects/naviagtion";
