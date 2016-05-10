@@ -5,7 +5,7 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <h2>This is a page about Slalom Escape</h2>
+        <h2>This is a page about the hotel</h2>
         <p>And this might be some interesting explanatory text around escape. Escape is in Lake Tahoe.</p>
         <img src="http://www.tahoesbest.com/sites/default/files/lake-tahoe-landing-32.jpg?1334953710" />
         <h3>The hotel</h3>

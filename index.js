@@ -5,8 +5,9 @@ import App from './modules/App'
 import { Router, Route, hashHistory, IndexRoute } from 'react-router'
 
 import Home from './modules/Home'
-import About from './modules/About'
+import Hotel from './modules/Hotel'
 import Packlist from './modules/Packlist'
+import Freetime from './modules/Freetime'
 import Events from './modules/Events'
 import Event from './modules/Event'
 
@@ -19,8 +20,9 @@ render((
       <Route path="/events" component={Events}/>
         <Route path="/events/:eventDay/:eventSlug/:eventId" component={Event}/>
       
-      <Route path="/about" component={About}/>
+      <Route path="/hotel" component={Hotel}/>
       <Route path="/packlist" component={Packlist}/>
+      <Route path="/freetime" component={Freetime}/>
     
     </Route>
   </Router>
