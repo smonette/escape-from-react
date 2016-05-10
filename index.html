@@ -9,23 +9,8 @@
 <!-- ReactFire -->
 <script src="https://cdn.firebase.com/libs/reactfire/0.6.0/reactfire.min.js"></script>
 
-<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
-<script src="public/scripts/flipclock.js"></script>
+<script src="public/scripts/countdown.js"></script>
 
 <title>Escape from React</title>
 <div id=app class="container"></div>
 <script src="bundle.js"></script>
-
-<script>
-var clock = $('#countdown').FlipClock(100, {
-  clockFace: 'Counter',
-  countdown: true,
-  showSeconds: false
-});
-setTimeout(function() {
-    setInterval(function() {
-      clock.increment();
-    }, 86400);
-  });
-  // i set this at 2:46 on may 10
-</script>

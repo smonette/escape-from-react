@@ -15,6 +15,8 @@ export default React.createClass({
           <li className="nav-item"><NavLink to="/packlist">Packlist</NavLink></li>
           <li className="nav-item"><NavLink to="/freetime">Free time activities</NavLink></li>
         </ul>
+        <div id="countdown"> </div>
+
 
         {this.props.children || <Home/>}
 
