@@ -87,6 +87,6 @@
     "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
     "EventStart": "9am",
     "EventEnd": 0,
-    "EventAttire": 0
+    "EventAttire": "Any"
   }
 ]
