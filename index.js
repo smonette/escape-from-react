@@ -17,7 +17,7 @@ render((
       <IndexRoute component={Home}/>
 
       <Route path="/events" component={Events}/>
-        <Route path="/events/:day/:eventName" component={Event}/>
+        <Route path="/events/:eventId/:eventDay/:eventSlug" component={Event}/>
       
       <Route path="/about" component={About}/>
       <Route path="/packlist" component={Packlist}/>

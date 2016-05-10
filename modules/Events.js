@@ -4,26 +4,23 @@ import { Link } from 'react-router'
 
 
 export default React.createClass({
-  render() {
+  mixins: [ReactFireMixin],
+  componentWillMount: function() {
+    var ref = new Firebase("https://blistering-torch-7865.firebaseio.com/events");
+    this.bindAsArray(ref, "events");
+  },
+  render: function() {
+    var events = this.state.events.map(function(event) {
     return (
-      <div>
-        <h2>Events</h2>
-        <h3>Friday</h3>
-        <ul>
-          <li><Link to="/events/friday/check-in">Hotel Check in</Link></li>
-          <li><Link to="/events/friday/white-party">White Party Dinner</Link></li>
-        </ul>
-        <h3>Saturday</h3>
-        <ul>
-          <li><Link to="/events/saturday/brunch">Greasy Brunch</Link></li>
-          <li><Link to="/events/saturday/beach-party">Beach Olympics and Party</Link></li>
-          <li><Link to="/events/sunday/black-tie">Black tie dinner party</Link></li>
-        </ul>
-        <h3>Sunday</h3>
-        <ul>
-          <li><Link to="/events/sunday/departure">Go home</Link></li>
-        </ul>
-      </div>
-    )
+        <li key={ event['.key'] }>
+          <Link to={"events/" + event['.key'] + "/" + event.EventDay + "/" + event.EventSlug }>
+            { event.EventDay }, { event.EventStart } - { event.EventName }
+          </Link>
+        </li>
+      );
+    });
+    return <ul>{ events }</ul>;
+
   }
-})
+});
+

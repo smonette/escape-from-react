@@ -1,0 +1,92 @@
+[
+  {
+    "EventDay": "Friday",
+    "EventSlug": "Check-In",
+    "EventName": "Check In",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "3pm",
+    "EventEnd": "5pm",
+    "EventAttire": "Any"
+  },
+  {
+    "EventDay": "Friday",
+    "EventSlug": "White-Party",
+    "EventName": "White Party",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "6pm",
+    "EventEnd": "10pm",
+    "EventAttire": "white clothes?"
+  },
+  {
+    "EventDay": "Friday",
+    "EventSlug": "After-Party",
+    "EventName": "After Party",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "10pm",
+    "EventEnd": "2am",
+    "EventAttire": "Any"
+  },
+  {
+    "EventDay": "Saturday",
+    "EventSlug": "Breakfast",
+    "EventName": "Brunch",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "7am",
+    "EventEnd": "9am",
+    "EventAttire": "Any"
+  },
+  {
+    "EventDay": "Saturday",
+    "EventSlug": "Beach-Olympics",
+    "EventName": "Beach",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "11am",
+    "EventEnd": "1pm",
+    "EventAttire": "Swimsuit, athletic wear"
+  },
+  {
+    "EventDay": "Saturday",
+    "EventSlug": "Free-Time",
+    "EventName": "Freetime",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "1pm",
+    "EventEnd": "7pm",
+    "EventAttire": "Any"
+  },
+  {
+    "EventDay": "Saturday",
+    "EventSlug": "Black-Tie-Dinner",
+    "EventName": "Dinner",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "7pm",
+    "EventEnd": "9pm",
+    "EventAttire": "formal black tie"
+  },
+  {
+    "EventDay": "Saturday",
+    "EventSlug": "After-Party",
+    "EventName": "After Party",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "9pm",
+    "EventEnd": "11pm",
+    "EventAttire": "Any"
+  },
+  {
+    "EventDay": "Sunday",
+    "EventSlug": "Breakfast",
+    "EventName": "Breakfast",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "8am",
+    "EventEnd": "9am",
+    "EventAttire": "Any"
+  },
+  {
+    "EventDay": "Sunday",
+    "EventSlug": "Check-out",
+    "EventName": "Checkout",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "9am",
+    "EventEnd": 0,
+    "EventAttire": 0
+  }
+]

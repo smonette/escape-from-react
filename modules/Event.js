@@ -1,13 +1,20 @@
 // modules/Event.js
 import React from 'react'
 
+
 export default React.createClass({
-  render() {
+  mixins: [ReactFireMixin],
+  
+  componentWillMount: function() {
+    var ref = new Firebase("https://blistering-torch-7865.firebaseio.com/events/7");
+    this.bindAsObject(ref, "event");
+  },
+  render: function() {
     return (
-      <div>
-        <h2>Event name: {this.props.params.eventName}</h2>
-        <p>Oh wow. How stoked are you for {this.props.params.eventName}? {this.props.params.eventName} is gonna be SOOOOOO COOOL OMGGGGG </p>
-      </div>
+    <div>
+      <h2>EVENT! {event.EventName}</h2>
+    </div>
     )
+
   }
-})
+});
