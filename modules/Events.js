@@ -5,6 +5,9 @@ import { Link } from 'react-router'
 
 export default React.createClass({
   mixins: [ReactFireMixin],
+  getInitialState: function() {
+    return { item: {} };
+  },
   componentWillMount: function() {
     var ref = new Firebase("https://blistering-torch-7865.firebaseio.com/events");
     this.bindAsArray(ref, "events");
