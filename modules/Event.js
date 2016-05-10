@@ -13,8 +13,6 @@ export default React.createClass({
     var id = this.props.params.eventId;
     var eventRef = new Firebase("https://blistering-torch-7865.firebaseio.com/events/" + id);
     this.bindAsObject(eventRef, "event");
-    console.log("this: " + this)
-    console.log("ref: " + eventRef)
   },
   render: function() {
     var event = this.state.event;
@@ -25,7 +23,7 @@ export default React.createClass({
           <h2>{event.EventName}</h2>
           <p>{event.EventDescription}</p>
 
-          <h3>Special Attire?</h3>
+          <h3>What should I wear?</h3>
           <p>{event.EventAttire}</p>
         </div>
       );

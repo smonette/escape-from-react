@@ -17,7 +17,6 @@ export default React.createClass({
         </ul>
         <div id="countdown"> </div>
 
-
         {this.props.children || <Home/>}
 
       </div>
