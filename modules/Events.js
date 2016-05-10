@@ -13,7 +13,7 @@ export default React.createClass({
     var events = this.state.events.map(function(event) {
     return (
         <li key={ event['.key'] }>
-          <Link to={"events/" + event['.key'] + "/" + event.EventDay + "/" + event.EventSlug }>
+          <Link to={"events/" + event.EventSlug + "/" + event.EventDay + "/" + event['.key'] }>
             { event.EventDay }, { event.EventStart } - { event.EventName }
           </Link>
         </li>
