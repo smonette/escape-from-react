@@ -1,97 +1,17 @@
-html {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-body {
-  margin: 0; }
-
-h1, h2, h3, h4, p, blockquote, figure, ol, ul {
-  margin: 0;
-  padding: 0; }
-
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary, li {
-  display: block; }
-
-address, article, aside, audio, blockquote, canvas, dd, div, dl, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, noscript, ol, output, p, pre, section, table, textarea, tfoot, ul, video, li {
-  box-sizing: border-box; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: normal; }
-
-a {
-  text-decoration: none;
-  color: inherit; }
-
-img {
-  height: auto;
-  border: 0; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  color: inherit;
-  font: inherit;
-  margin: 0; }
-
-button,
-input[type='button'],
-input[type='submit'],
-input[type='image'] {
-  outline: none;
-  border: none; }
-
-body {
-  font-size: 16px; }
-
-h1 {
-  font-size: 36px;
-  font-weight: bold;
-  margin-top: 20px; }
-
-h2 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 15px; }
-
-h3 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 10px; }
-
-.container {
-  max-width: 1024px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 20px;
-  padding-left: 20px; }
-
 /* Get the bourbon mixin from http://bourbon.io */
 /* Reset */
 .flip-clock-wrapper * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden; }
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
 
 .flip-clock-wrapper a {
   cursor: pointer;
@@ -125,24 +45,23 @@ h3 {
   box-shadow: 0 0 0 !important;
   font-size: 36px !important; }
 
-.flip-clock-meridium a {
-  color: #313333; }
+.flip-clock-meridium a { color: #313333; }
 
 .flip-clock-wrapper {
   text-align: center;
   position: relative;
   width: 100%;
-  margin: 1em; }
+  margin: 1em;
+}
 
 .flip-clock-wrapper:before,
 .flip-clock-wrapper:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */ }
-
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
 .flip-clock-wrapper:after {
-  clear: both; }
+    clear: both;
+}
 
 /* Skeleton */
 .flip-clock-wrapper ul {
@@ -155,7 +74,8 @@ h3 {
   font-weight: bold;
   line-height: 87px;
   border-radius: 6px;
-  background: #000; }
+  background: #000;
+}
 
 .flip-clock-wrapper ul li {
   z-index: 1;
@@ -165,7 +85,8 @@ h3 {
   width: 100%;
   height: 100%;
   line-height: 87px;
-  text-decoration: none !important; }
+  text-decoration: none !important;
+}
 
 .flip-clock-wrapper ul li:first-child {
   z-index: 2; }
@@ -187,7 +108,7 @@ h3 {
   width: 100%;
   height: 50%;
   font-size: 80px;
-  overflow: hidden;
+  overflow: hidden; 
   outline: 1px solid transparent; }
 
 .flip-clock-wrapper ul li a div .shadow {
@@ -223,7 +144,8 @@ h3 {
   transform-origin: 50% 0;
   bottom: 0;
   border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px; }
+  border-bottom-right-radius: 6px;
+}
 
 .flip-clock-wrapper ul li a div div.inn {
   position: absolute;
@@ -248,8 +170,7 @@ h3 {
 .flip-clock-wrapper ul.play li.flip-clock-before {
   z-index: 3; }
 
-.flip-clock-wrapper .flip {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); }
+.flip-clock-wrapper .flip {   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); }
 
 .flip-clock-wrapper ul.play li.flip-clock-active {
   -webkit-animation: asd 0.5s 0.5s linear both;
@@ -299,32 +220,40 @@ h3 {
 @-webkit-keyframes asd {
   0% {
     z-index: 2; }
+
   20% {
     z-index: 4; }
+
   100% {
     z-index: 4; } }
 
 @-moz-keyframes asd {
   0% {
     z-index: 2; }
+
   20% {
     z-index: 4; }
+
   100% {
     z-index: 4; } }
 
 @-o-keyframes asd {
   0% {
     z-index: 2; }
+
   20% {
     z-index: 4; }
+
   100% {
     z-index: 4; } }
 
 @keyframes asd {
   0% {
     z-index: 2; }
+
   20% {
     z-index: 4; }
+
   100% {
     z-index: 4; } }
 
@@ -337,24 +266,28 @@ h3 {
 @-webkit-keyframes turn {
   0% {
     -webkit-transform: rotateX(90deg); }
+
   100% {
     -webkit-transform: rotateX(0deg); } }
 
 @-moz-keyframes turn {
   0% {
     -moz-transform: rotateX(90deg); }
+
   100% {
     -moz-transform: rotateX(0deg); } }
 
 @-o-keyframes turn {
   0% {
     -o-transform: rotateX(90deg); }
+
   100% {
     -o-transform: rotateX(0deg); } }
 
 @keyframes turn {
   0% {
     transform: rotateX(90deg); }
+
   100% {
     transform: rotateX(0deg); } }
 
@@ -367,24 +300,28 @@ h3 {
 @-webkit-keyframes turn2 {
   0% {
     -webkit-transform: rotateX(0deg); }
+
   100% {
     -webkit-transform: rotateX(-90deg); } }
 
 @-moz-keyframes turn2 {
   0% {
     -moz-transform: rotateX(0deg); }
+
   100% {
     -moz-transform: rotateX(-90deg); } }
 
 @-o-keyframes turn2 {
   0% {
     -o-transform: rotateX(0deg); }
+
   100% {
     -o-transform: rotateX(-90deg); } }
 
 @keyframes turn2 {
   0% {
     transform: rotateX(0deg); }
+
   100% {
     transform: rotateX(-90deg); } }
 
@@ -440,61 +377,55 @@ h3 {
 @-webkit-keyframes show {
   0% {
     opacity: 0; }
+
   100% {
     opacity: 1; } }
 
 @-moz-keyframes show {
   0% {
     opacity: 0; }
+
   100% {
     opacity: 1; } }
 
 @-o-keyframes show {
   0% {
     opacity: 0; }
+
   100% {
     opacity: 1; } }
 
 @keyframes show {
   0% {
     opacity: 0; }
+
   100% {
     opacity: 1; } }
 
 @-webkit-keyframes hide {
   0% {
     opacity: 1; }
+
   100% {
     opacity: 0; } }
 
 @-moz-keyframes hide {
   0% {
     opacity: 1; }
+
   100% {
     opacity: 0; } }
 
 @-o-keyframes hide {
   0% {
     opacity: 1; }
+
   100% {
     opacity: 0; } }
 
 @keyframes hide {
   0% {
     opacity: 1; }
+
   100% {
     opacity: 0; } }
-
-.nav {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-.nav-item {
-  display: inline-block;
-  padding: 5px 10px;
-  border: 1px solid grey;
-  margin-right: 10px; }
-
-.nav-item-link {
-  display: block; }
