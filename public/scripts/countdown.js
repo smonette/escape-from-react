@@ -38,6 +38,6 @@ function initializeClock(id, endtime) {
 var deadline = new Date(Date.parse(new Date()) + 100 * 24 * 60 * 60 * 1000);
 
 
-window.onload = function() {
-  initializeClock('countdown', deadline);
-};
+// window.onload = function() {
+//   initializeClock('countdown', deadline);
+// };

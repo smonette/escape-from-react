@@ -11,11 +11,10 @@ export default React.createClass({
         <ul role="nav" className="nav">
           <li className="nav-item"><NavLink to="/packlist">Reminders</NavLink></li>
           <li className="nav-item"><NavLink to="/events">Events</NavLink></li>
-          <li className="nav-item"><NavLink to="/hotel">Hotel</NavLink></li>
+          <li className="nav-item"><NavLink to="/hotel">Map</NavLink></li>
         </ul>
-        <div id="countdown"> </div>
 
-        {this.props.children || <Home/>}
+        {this.props.children || <Events/>}
 
       </div>
     )
