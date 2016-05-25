@@ -9,11 +9,9 @@ export default React.createClass({
       <div>
         <h1>Welcome to Tahoe de Janeiro</h1>
         <ul role="nav" className="nav">
-          <li  className="nav-item"><NavLink to="/">Home</NavLink></li>
-          <li className="nav-item"><NavLink to="/hotel">Hotel</NavLink></li>
+          <li className="nav-item"><NavLink to="/packlist">Reminders</NavLink></li>
           <li className="nav-item"><NavLink to="/events">Events</NavLink></li>
-          <li className="nav-item"><NavLink to="/packlist">Packlist</NavLink></li>
-          <li className="nav-item"><NavLink to="/freetime">Free time activities</NavLink></li>
+          <li className="nav-item"><NavLink to="/hotel">Hotel</NavLink></li>
         </ul>
         <div id="countdown"> </div>
 

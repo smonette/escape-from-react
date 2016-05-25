@@ -1,10 +1,16 @@
 .nav {
+  background: blue;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .nav-item {
+  background: #fff;
   display: inline-block;
   padding: 5px 10px;
   border: 1px solid grey;

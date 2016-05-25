@@ -6,7 +6,7 @@ export default React.createClass({
   render: function() {
     return(
       <div>
-        <h2>Hey there, you found the homepage!</h2>
+        <h2>Hey there, you found the splash page!!</h2>
       </div>
     )
 
