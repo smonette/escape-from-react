@@ -21,5 +21,5 @@ grunt watch
 Now open up [http://localhost:8080](http://localhost:8080)
 
 
-## Other links
+## Relevant links
 [Google Drive](https://drive.google.com/open?id=1LTurFrHkaDvWLD-6gtWXgFCblgr59IAV2qLE7_VW_kI)
