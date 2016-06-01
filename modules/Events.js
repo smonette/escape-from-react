@@ -13,16 +13,20 @@ export default React.createClass({
     this.bindAsArray(ref, "events");
   },
   render: function() {
+
     var events = this.state.events.map(function(event) {
     return (
-        <li key={ event['.key'] }>
+        <div key={ event['.key'] } className="event-item" data-day={ event.EventDay } >
+          <span className="event-item_start">{ event.EventStart }</span>
+          <h3 className="event-item_name">{ event.EventName }</h3>
           <Link to={"events/" + event.EventSlug + "/" + event.EventDay + "/" + event['.key'] }>
-            { event.EventDay }, { event.EventStart } - { event.EventName }
+            View Details &raquo;
           </Link>
-        </li>
+        </div>
       );
     });
-    return <ul>{ events }</ul>;
+
+    return <div>{ events }</div>;
 
   }
 });
