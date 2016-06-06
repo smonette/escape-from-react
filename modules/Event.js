@@ -11,7 +11,8 @@ export default React.createClass({
 
   componentWillMount: function() {
     var id = this.props.params.eventId;
-    var eventRef = new Firebase("https://blistering-torch-7865.firebaseio.com/events/" + id);
+    var day = this.props.params.eventDay;
+    var eventRef = new Firebase("https://blistering-torch-7865.firebaseio.com/events/" + day + id);
     this.bindAsObject(eventRef, "event");
   },
   render: function() {

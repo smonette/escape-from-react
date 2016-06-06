@@ -1,2 +1,24 @@
-[{"EventDay":"Sunday","EventSlug":"Breakfast","EventName":"Breakfast","EventDescription":"Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.","EventStart":"8:00 AM","EventEnd":"9:00 AM","EventLocation":"Hotel Cafe","EventAttire":"Any","EventIntroText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor.","":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null},
-{"EventDay":"Sunday","EventSlug":"Check-out","EventName":"Checkout","EventDescription":"Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.","EventStart":"9:00 AM","EventEnd":"","EventLocation":"Hotel Reception","EventAttire":"","EventIntroText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor.","":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null}]
+[
+  {
+    "EventDay": "Sunday",
+    "EventSlug": "Breakfast",
+    "EventName": "Breakfast",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "8:00 AM",
+    "EventEnd": "9:00 AM",
+    "EventLocation": "Hotel Cafe",
+    "EventAttire": "Any",
+    "EventIntroText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor."
+  },
+  {
+    "EventDay": "Sunday",
+    "EventSlug": "Check-out",
+    "EventName": "Checkout",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "9:00 AM",
+    "EventEnd": 0,
+    "EventLocation": "Hotel Reception",
+    "EventAttire": 0,
+    "EventIntroText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor."
+  }
+]

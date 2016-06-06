@@ -1,5 +1,57 @@
-[{"EventDay":"Saturday","EventSlug":"Breakfast","EventName":"Brunch","EventDescription":"Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.","EventStart":"7:00 AM","EventEnd":"9:00 AM","EventLocation":"Hotel Cafe","EventAttire":"Any","EventIntroText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor.","":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null},
-{"EventDay":"Saturday","EventSlug":"Beach-Olympics","EventName":"Beach","EventDescription":"Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.","EventStart":"11:00 AM","EventEnd":"1:00 PM","EventLocation":"Beach","EventAttire":"","EventIntroText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor.","":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null},
-{"EventDay":"Saturday","EventSlug":"Free-Time","EventName":"Freetime","EventDescription":"Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.","EventStart":"1:00 PM","EventEnd":"7:00 PM","EventLocation":"Anywhere","EventAttire":"Any","EventIntroText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor.","":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null},
-{"EventDay":"Saturday","EventSlug":"Black-Tie-Dinner","EventName":"Dinner","EventDescription":"Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.","EventStart":"7:00 PM","EventEnd":"9:00 PM","EventLocation":"Lounge","EventAttire":"formal black tie","EventIntroText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor.","":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null},
-{"EventDay":"Saturday","EventSlug":"After-Party","EventName":"After Party","EventDescription":"Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.","EventStart":"9:00 PM","EventEnd":"11:00 PM","EventLocation":"Hotel Bar","EventAttire":"Any","EventIntroText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor.","":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null}]
+[
+  {
+    "EventDay": "Saturday",
+    "EventSlug": "Breakfast",
+    "EventName": "Brunch",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "7:00 AM",
+    "EventEnd": "9:00 AM",
+    "EventLocation": "Hotel Cafe",
+    "EventAttire": "Any",
+    "EventIntroText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor."
+  },
+  {
+    "EventDay": "Saturday",
+    "EventSlug": "Beach-Olympics",
+    "EventName": "Beach",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "11:00 AM",
+    "EventEnd": "1:00 PM",
+    "EventLocation": "Beach",
+    "EventAttire": 0,
+    "EventIntroText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor."
+  },
+  {
+    "EventDay": "Saturday",
+    "EventSlug": "Free-Time",
+    "EventName": "Freetime",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "1:00 PM",
+    "EventEnd": "7:00 PM",
+    "EventLocation": "Anywhere",
+    "EventAttire": "Any",
+    "EventIntroText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor."
+  },
+  {
+    "EventDay": "Saturday",
+    "EventSlug": "Black-Tie-Dinner",
+    "EventName": "Dinner",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "7:00 PM",
+    "EventEnd": "9:00 PM",
+    "EventLocation": "Lounge",
+    "EventAttire": "formal black tie",
+    "EventIntroText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor."
+  },
+  {
+    "EventDay": "Saturday",
+    "EventSlug": "After-Party",
+    "EventName": "After Party",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "9:00 PM",
+    "EventEnd": "11:00 PM",
+    "EventLocation": "Hotel Bar",
+    "EventAttire": "Any",
+    "EventIntroText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor."
+  }
+]

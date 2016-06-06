@@ -1,3 +1,35 @@
-[{"EventDay":"Friday","EventSlug":"Check-In","EventName":"Check In","EventDescription":"Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.","EventStart":"3:00 PM","EventEnd":"5:00 PM","EventLocation":"Hotel","EventAttire":"Any","EventIntroText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor.","":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null},
-{"EventDay":"Friday","EventSlug":"White-Party","EventName":"White Party","EventDescription":"Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.","EventStart":"6:00 PM","EventEnd":"10:00 PM","EventLocation":"Lounge","EventAttire":"White clothes","EventIntroText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor.","":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null},
-{"EventDay":"Friday","EventSlug":"After-Party","EventName":"After Party","EventDescription":"Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.","EventStart":"10:00 PM","EventEnd":"2:00 AM","EventLocation":"Hotel Bar","EventAttire":"Any","EventIntroText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor.","":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null,"":null}]
+[
+  {
+    "EventDay": "Friday",
+    "EventSlug": "Check-In",
+    "EventName": "Check In",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "3:00 PM",
+    "EventEnd": "5:00 PM",
+    "EventLocation": "Hotel",
+    "EventAttire": "Any",
+    "EventIntroText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor."
+  },
+  {
+    "EventDay": "Friday",
+    "EventSlug": "White-Party",
+    "EventName": "White Party",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "6:00 PM",
+    "EventEnd": "10:00 PM",
+    "EventLocation": "Lounge",
+    "EventAttire": "White clothes",
+    "EventIntroText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor."
+  },
+  {
+    "EventDay": "Friday",
+    "EventSlug": "After-Party",
+    "EventName": "After Party",
+    "EventDescription": "Describe the event consectetur adipiscing elit. Nam non augue dapibus ipsum lacinia condimentum eu sed mauris. Sed et hendrerit nulla. Donec lobortis eget leo molestie egestas.",
+    "EventStart": "10:00 PM",
+    "EventEnd": "2:00 AM",
+    "EventLocation": "Hotel Bar",
+    "EventAttire": "Any",
+    "EventIntroText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt id lacus et faucibus. Nullam euismod auctor vulputate. Curabitur mattis diam dolor."
+  }
+]
