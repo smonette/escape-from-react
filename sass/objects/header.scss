@@ -1,0 +1,21 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-image: linear-gradient(to top, $ui-grey, #ffffff);
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.header-logo {
+  max-width: 205px;
+  margin: 0 auto;
+
+  > img { width: 100%; }
+} 
+
+.header-wedgie {
+  height: 100px;
+}

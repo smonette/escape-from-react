@@ -19,7 +19,9 @@ export default React.createClass({
     var event = this.state.event;
 
     return (
-        <div>
+      <div>
+        <div className="header-wedgie"></div>
+        <div className="row">
           <div>{event.EventDay}, {event.EventStart}</div>
           <h2>{event.EventName}</h2>
           <p>{event.EventDescription}</p>
@@ -27,6 +29,7 @@ export default React.createClass({
           <h3>What should I wear?</h3>
           <p>{event.EventAttire}</p>
         </div>
+      </div>
       );
   }
 });

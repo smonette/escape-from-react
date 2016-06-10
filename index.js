@@ -4,7 +4,6 @@ import App from './modules/App'
 
 import { Router, Route, hashHistory, IndexRoute } from 'react-router'
 
-import Home from './modules/Home'
 import Hotel from './modules/Hotel'
 import Packlist from './modules/Packlist'
 import Freetime from './modules/Freetime'
@@ -15,7 +14,7 @@ import Event from './modules/Event'
 render((
   <Router history={hashHistory}>
     <Route path="/" component={App}>
-      <IndexRoute component={Home}/>
+      <IndexRoute component={Events}/>
 
       <Route path="/events" component={Events}/>
         <Route path="/events/:eventDay/:eventSlug/:eventId" component={Event}/>

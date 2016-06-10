@@ -60,22 +60,27 @@ export default React.createClass({
 
     return (
       <div>
-        <div>
-          <h2>Friday</h2>
-          { fridayEvents }
-        </div>
+        <div className="header-wedgie"></div>
+  
+        <div className="row">
+          <div>
+            <h2>Friday</h2>
+            { fridayEvents }
+          </div>
 
-        <div>
-          <h2>Saturday</h2>
-          { saturdayEvents }
-        </div>
+          <div>
+            <h2>Saturday</h2>
+            { saturdayEvents }
+          </div>
 
-        <div>
-          <h2>Sunday</h2>
-          { sundayEvents }
-        </div>
+          <div>
+            <h2>Sunday</h2>
+            { sundayEvents }
+          </div>
 
+        </div>
       </div>
+      
 
       );
 

@@ -20,9 +20,13 @@ export default React.createClass({
 
     return(
       <div>
-        <h2>Packlist</h2>
-        <h3>Don't forget your:</h3>
-        <ul>{ packItems }</ul>
+        <div className="header-wedgie"></div>
+
+        <div className="row">
+          <h2>Packlist</h2>
+          <h3>Don't forget your:</h3>
+          <ul>{ packItems }</ul>
+        </div>
       </div>
     )
 
