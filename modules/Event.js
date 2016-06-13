@@ -20,6 +20,13 @@ export default React.createClass({
 
     return (
       <div>
+        <div className="header">
+          <div className="row"> 
+            <div className="header-logo"><img src={'public/img/logo.png'} /></div>
+            <h3 className="header-title">EVENT NAME HERE</h3>
+          </div>
+        </div>
+
         <div className="header-wedgie"></div>
         <div className="row">
           <div>{event.EventDay}, {event.EventStart}</div>

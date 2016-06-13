@@ -24,6 +24,13 @@ export default React.createClass({
 
     return(
       <div>
+        <div className="header">
+          <div className="row"> 
+            <div className="header-logo"><img src={'public/img/logo.png'} /></div>
+            <h3 className="header-title">FREETIME ACTIVITIES</h3>
+          </div>
+        </div>
+
         <div className="header-wedgie"></div>
         <div className="row">
           <h2>Free time activities</h2>

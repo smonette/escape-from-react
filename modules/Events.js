@@ -60,21 +60,36 @@ export default React.createClass({
 
     return (
       <div>
+        <div className="header">
+          <div className="row"> 
+            <div className="header-logo"><img src={'public/img/logo.png'} /></div>
+          </div>
+          <h3 className="header-title"><a href="#friday">Friday</a> <a href="#saturday">Saturday</a> <a href="#sunday">Sunday</a></h3>
+        </div>
         <div className="header-wedgie"></div>
   
         <div className="row">
           <div>
-            <h2>Friday</h2>
+            <div className="event-list_header" id="friday">
+              <h2 className="event-list_day">Friday</h2>
+              <span className="event-list_date">8/19</span>
+            </div>
             { fridayEvents }
           </div>
 
           <div>
-            <h2>Saturday</h2>
+            <div className="event-list_header" id="saturday">
+              <h2 className="event-list_day">Saturday</h2>
+              <span className="event-list_date">8/20</span>
+            </div>
             { saturdayEvents }
           </div>
 
           <div>
-            <h2>Sunday</h2>
+            <div className="event-list_header" id="sunday">
+              <h2 className="event-list_day">Sunday</h2>
+              <span className="event-list_date">8/21</span>
+            </div>
             { sundayEvents }
           </div>
 

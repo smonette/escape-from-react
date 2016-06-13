@@ -16,10 +16,12 @@
 
   margin-right: 10px;
   font-size: 12px;
-  color: $blue;
 }
 
 .nav-item-link {
   display: block;
+  color: $blue;
+
+  &.active { color: $pink; }
 }
 
