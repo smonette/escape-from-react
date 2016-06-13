@@ -80,6 +80,9 @@ h3 {
 p {
   margin-bottom: 10px; }
 
+ul > li {
+  list-style: disc; }
+
 .row {
   max-width: 1024px;
   margin-right: auto;
@@ -502,7 +505,8 @@ p {
   position: fixed;
   right: 0;
   bottom: 0;
-  left: 0; }
+  left: 0;
+  height: 50px; }
 
 .nav-item {
   display: inline-block;
@@ -515,6 +519,9 @@ p {
   color: #0994b2; }
   .nav-item-link.active {
     color: #ed2a7b; }
+
+.nav-wedgie {
+  height: 50px; }
 
 .header {
   position: fixed;
