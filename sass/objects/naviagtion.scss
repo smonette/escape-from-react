@@ -1,5 +1,3 @@
-$nav-height: 50px;
-
 .nav {
   background-image: linear-gradient(to top, $ui-grey, #ffffff);
   border-top: solid 1px #e4e4e4;
@@ -26,8 +24,4 @@ $nav-height: 50px;
   color: $blue;
 
   &.active { color: $pink; }
-}
-
-.nav-wedgie {
-  height: $nav-height; 
 }

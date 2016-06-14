@@ -23,24 +23,32 @@ export default React.createClass({
     var fridayEvents = this.state.fridayEvents.map(function(event) {
     return (
         <div key={ event['.key'] } className="event-item" data-day={ event.EventDay } >
-          <span className="event-item_start">{ event.EventStart }</span>
-          <h3 className="event-item_name">{ event.EventName }</h3>
-          <Link to={"events/" + event.EventDay + "/" + event['.key'] }>
-            View Details &raquo;
-          </Link>
+          <div className="event-list_aside">
+            <span className="event-item_start">{ event.EventStart }</span>
+          </div>
+          <div className="event-list_main">
+            <Link to={"events/" + event.EventDay + "/" + event['.key'] }>
+              <p className="event-item_name">{ event.EventName }
+              <span className="event-item_location">{ event.EventLocation }</span></p>
+            </Link>
+          </div>
         </div>
       );
     });
 
      var saturdayEvents = this.state.saturdayEvents.map(function(event) {
       return (
-          <div key={ event['.key'] } className="event-item" data-day={ event.EventDay } >
+        <div key={ event['.key'] } className="event-item" data-day={ event.EventDay } >
+          <div className="event-list_aside">
             <span className="event-item_start">{ event.EventStart }</span>
-            <h3 className="event-item_name">{ event.EventName }</h3>
+          </div>
+          <div className="event-list_main">
             <Link to={"events/" + event.EventDay + "/" + event['.key'] }>
-              View Details &raquo;
+              <p className="event-item_name">{ event.EventName }
+              <span className="event-item_location">{ event.EventLocation }</span></p>
             </Link>
           </div>
+        </div>
         );
       });
 
@@ -48,12 +56,16 @@ export default React.createClass({
    var sundayEvents = this.state.sundayEvents.map(function(event) {
       return (
           <div key={ event['.key'] } className="event-item" data-day={ event.EventDay } >
+          <div className="event-list_aside">
             <span className="event-item_start">{ event.EventStart }</span>
-            <h3 className="event-item_name">{ event.EventName }</h3>
+          </div>
+          <div className="event-list_main">
             <Link to={"events/" + event.EventDay + "/" + event['.key'] }>
-              View Details &raquo;
+              <p className="event-item_name">{ event.EventName }
+              <span className="event-item_location">{ event.EventLocation }</span></p>
             </Link>
           </div>
+        </div>
         );
       });
 
@@ -64,35 +76,42 @@ export default React.createClass({
           <div className="row"> 
             <div className="header-logo"><img src={'public/img/logo.png'} /></div>
           </div>
-          <h3 className="header-title"><a href="#friday">Friday</a> <a href="#saturday">Saturday</a> <a href="#sunday">Sunday</a></h3>
+          <h3 className="header-title">
+            Schedule
+          </h3>
         </div>
-        <div className="header-wedgie"></div>
-  
-        <div className="row">
-          <div>
-            <div className="event-list_header" id="friday">
-              <h2 className="event-list_day">Friday</h2>
-              <span className="event-list_date">8/19</span>
-            </div>
-            { fridayEvents }
+        <div className="content">
+
+          <div className="backdrop">
+            <div className="backdrop_events"></div>
           </div>
 
-          <div>
-            <div className="event-list_header" id="saturday">
-              <h2 className="event-list_day">Saturday</h2>
-              <span className="event-list_date">8/20</span>
+          <div className="row events-list">
+            <div>
+              <div className="event-list_header" id="friday">
+                <h2 className="event-list_day">Friday</h2>
+                <span className="event-list_date">8/19</span>
+              </div>
+              { fridayEvents }
             </div>
-            { saturdayEvents }
-          </div>
 
-          <div>
-            <div className="event-list_header" id="sunday">
-              <h2 className="event-list_day">Sunday</h2>
-              <span className="event-list_date">8/21</span>
+            <div>
+              <div className="event-list_header" id="saturday">
+                <h2 className="event-list_day">Saturday</h2>
+                <span className="event-list_date">8/20</span>
+              </div>
+              { saturdayEvents }
             </div>
-            { sundayEvents }
-          </div>
 
+            <div>
+              <div className="event-list_header" id="sunday">
+                <h2 className="event-list_day">Sunday</h2>
+                <span className="event-list_date">8/21</span>
+              </div>
+              { sundayEvents }
+            </div>
+
+          </div>
         </div>
       </div>
       

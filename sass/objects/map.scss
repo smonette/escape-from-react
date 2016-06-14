@@ -1,15 +1,29 @@
 .map-link {
   background: $green;
   color: #fff;
-  padding: 20px;
+  padding: 20px 40px;
   border-bottom: 1px solid rgba(0,0,0,0.3);
 
   font-weight: bold;
   font-size: $type-smedium;
   line-height: $type-medium;
+
 }
 .map-link > a {
   display: block;
   height: 100%;
   width: 100%;
+  position: relative;
+  padding-left: 50px;
+  
+ &:before {
+    content:'';
+    position: absolute;
+    left: 0;
+    background-image: url('../img/icon-map-link.png');
+    background-size: cover;
+    height: 50px;
+    width: 36px;
+  }
+
 }

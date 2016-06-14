@@ -1,7 +1,52 @@
+.events-list {
+  color: #fff;
+}
+.event-item {
+  margin-top: 20px;
+  position: relative;
+
+  &:after {
+    content:'›';
+    position: absolute;
+    font-size: 45px;
+    top: -15px;
+    right: 0;
+  }
+}
 .event-list_header {
   border-bottom: 2px solid #fff;
+  font-size: 20px;
+  font-weight: bold;
 }
 .event-list_day,
 .event-list_date {
   display: inline-block;
+}
+.event-list_day {
+  width: 85%;
+}
+.event-list_date {
+  text-align: right;
+}
+
+.event-list_aside,
+.event-list_main {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 10px;
+
+  font-size: $type-smedium;
+  font-weight: bold;
+}
+.event-list_aside {
+  width: 40%;
+}
+.event-list_main {
+  width: 55%;
+}
+
+.event-item_location {
+  display: block;
+  font-size: $type-small;
+  font-weight: normal;
 }

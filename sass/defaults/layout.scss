@@ -5,3 +5,9 @@
   padding-right: 20px;
   padding-left: 20px;
 }
+.content {
+  // accounts for fixed header spacing
+  margin-top: $header-height;
+  margin-bottom: $nav-height;
+  overflow: hidden;
+}

@@ -31,11 +31,12 @@ export default React.createClass({
           </div>
         </div>
 
-        <div className="header-wedgie"></div>
-        <div className="row">
-          <h2>Free time activities</h2>
-          <h3>Why don't you explore Tahoe?</h3>
-          <ul>{ freetimeActivites }</ul>
+        <div className="content">
+          <div className="row">
+            <h2>Free time activities</h2>
+            <h3>Why don't you explore Tahoe?</h3>
+            <ul>{ freetimeActivites }</ul>
+          </div>
         </div>
       </div>
     )

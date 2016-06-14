@@ -1,0 +1,28 @@
+.backdrop {
+  // create crisp edges on blurred images
+  overflow: hidden;
+  width: 100%;
+
+  & > div {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    background-size: cover;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+
+    margin-left: -5px;
+    margin-right: -5px;
+    width: 105%;
+  }
+}
+
+.backdrop_events {
+  min-height: 1100px;
+  background-image: url('../img/background-1.jpg');
+}
+
+.backdrop_packlist {
+  min-height: 1100px;
+  background-image: url('../img/background-1.jpg');
+}

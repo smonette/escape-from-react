@@ -30,16 +30,18 @@ export default React.createClass({
           </div>
         </div>
 
-        <div className="header-wedgie"></div>
-        <div className="row">
-          <div>{event.EventDay}, {event.EventStart}</div>
-          <h2>{event.EventName}</h2>
-          <p>{event.EventDescription}</p>
+        <div className="content">
+          <div className="row">
+            <h2>{event.EventName}</h2>
+            <div>{event.EventDay}, {event.EventStart}</div>
+            <p>{event.EventDescription}</p>
 
-          <h3>What should I wear?</h3>
-          <p>{event.EventAttire}</p>
+            <h3>What should I wear?</h3>
+            <p>{event.EventAttire}</p>
+          </div>
         </div>
-      </div>
+        </div>
+
       );
   }
 });
