@@ -101,12 +101,12 @@ ul > li {
   border-top: solid 1px #e4e4e4;
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 20px;
   position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
-  height: 50px; }
+  height: 50px;
+  z-index: 5; }
 
 .nav-item {
   display: inline-block;
