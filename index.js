@@ -17,7 +17,7 @@ render((
       <IndexRoute component={Events}/>
 
       <Route path="/events" component={Events}/>
-        <Route path="/events/:eventDay/:eventSlug/:eventId" component={Event}/>
+        <Route path="/events/:eventDay/:eventId" component={Event}/>
       
       <Route path="/hotel" component={Hotel}/>
       <Route path="/packlist" component={Packlist}/>

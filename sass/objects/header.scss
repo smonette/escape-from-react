@@ -19,9 +19,9 @@ $header-height: 135px;
 } 
 
 .header-wedgie {
-  height: $header-height;
+  height: $header-height + 20px;
   position: relative;
-  margin-top:-20px;
+  margin-top: -20px;
 }
 
 .header-title { 

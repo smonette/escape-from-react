@@ -12,18 +12,21 @@ export default React.createClass({
   componentWillMount: function() {
     var id = this.props.params.eventId;
     var day = this.props.params.eventDay;
-    var eventRef = new Firebase("https://blistering-torch-7865.firebaseio.com/events/" + day + id);
+    var eventRef = new Firebase("https://blistering-torch-7865.firebaseio.com/events/" + day + '/' + id);
     this.bindAsObject(eventRef, "event");
+    console.log(eventRef);
+    console.log('day:' + day + 'id: ' + id);
   },
   render: function() {
     var event = this.state.event;
+    console.log(event);
 
     return (
       <div>
         <div className="header">
           <div className="row"> 
             <div className="header-logo"><img src={'public/img/logo.png'} /></div>
-            <h3 className="header-title">EVENT NAME HERE</h3>
+            <h3 className="header-title">{event.EventName}</h3>
           </div>
         </div>
 
