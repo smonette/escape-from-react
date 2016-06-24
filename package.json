@@ -28,6 +28,6 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dist": "webpack -p",
-  "postinstall": "npm run dist",
+  "postinstall": "npm run dist"
 
 }

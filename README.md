@@ -1,10 +1,7 @@
 # Escape From React
 
-First you'll need [Node.js](https://nodejs.org) and the package manager
+First you'll need [Node.js](https://nodejs.org) v6+ and the package manager
 that comes with it: [npm](https://www.npmjs.com/).
-
-Once you've got that working, head to the command line where we'll set
-up our project.
 
 ## Getting set up
 
@@ -12,7 +9,7 @@ up our project.
 npm install
 npm start
 ```
-Open a second tab on Terminal and let's get that Sass compiled
+Boom! Your project's installed, because NPM is pretty much magic. Open a second tab on Terminal and let's get that Sass compiled.
 ```
 grunt compile
 grunt watch
